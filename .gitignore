@@ -1,0 +1,7 @@
+._*
+*~
+*.pyc
+ve
+files/*
+tmp/*
+sites/default/settings.php

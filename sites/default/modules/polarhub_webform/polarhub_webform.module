@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the polarhub webform feature.
+ */
+
+include_once 'polarhub_webform.features.inc';

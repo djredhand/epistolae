@@ -1,0 +1,14 @@
+#header {
+  background-color: #f0d390;
+  background-image: -moz-linear-gradient(top, #f0d390 0%, #ead5a7 100%);
+  background-image: -ms-linear-gradient(top, #f0d390 0%, #ead5a7 100%);
+  background-image: -o-linear-gradient(top, #f0d390 0%, #ead5a7 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f0d390), color-stop(1, #ead5a7));
+  background-image: -webkit-linear-gradient(top, #f0d390 0%, #ead5a7 100%);
+  background-image: linear-gradient(top, #f0d390 0%, #ead5a7 100%);
+}
+
+#page-wrapper,
+#footer-wrapper {
+background: #f0d390;
+}

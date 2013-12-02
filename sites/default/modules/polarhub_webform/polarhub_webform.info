@@ -1,0 +1,15 @@
+name = PoLAR Hub Webform
+description = Polar Hub Webform
+core = 7.x
+package = Polar Hub
+dependencies[] = captcha
+dependencies[] = recaptcha
+dependencies[] = webform
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:1
+features[node][] = webform
+features_exclude[dependencies][features] = features
+features_exclude[dependencies][strongarm] = strongarm
+features_exclude[field_base][body] = body
+features_exclude[field_instance][node-webform-body] = node-webform-body
+features_exclude[field][node-webform-body] = node-webform-body
